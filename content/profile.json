@@ -1,0 +1,67 @@
+{
+  "name": "J. Rotich",
+  "fullName": "Japheth Rotich",
+  "jobTitle": "Global Lead, Internal Audit",
+  "currentEmployer": "Living Goods",
+  "location": "Nairobi, Kenya",
+  "linkedinUrl": "https://www.linkedin.com/in/rotichjr",
+
+  "hero": {
+    "headline": "Risk, Audit & Compliance Leader for Multinationals & INGOs",
+    "subheadline": "15+ years building risk-based audit functions across 25+ countries — now leading the AI pilot at an INGO reshaping what institutional assurance looks like.",
+    "cta": "View my work"
+  },
+
+  "about": {
+    "short": "Internal Audit Leader with 15+ years of risk-based audit, governance, and enterprise risk management experience across INGOs, global corporates, and financial institutions spanning 25+ countries across Africa, Europe, the Middle East, Asia, and the Americas.",
+    "long": [
+      "I'm an Internal Audit Leader with 15+ years of risk-based audit, governance, and enterprise risk management experience across INGOs, global corporates, and financial institutions spanning 25+ countries across Africa, Europe, the Middle East, Asia, and the Americas.",
+      "I currently serve as Global Lead, Internal Audit at Living Goods International, reporting directly to the Board Finance & Audit Committee across a four-country INGO operation. Before that, I spent five years at SGS as Regional Senior Auditor, delivering risk-based assurance across 25+ countries as part of the world's largest inspection, verification, testing, and certification company — and four years as Chief Audit & Risk Officer at Longhorn Publishers, a publicly listed group, where I built and led the audit and risk function from the ground up.",
+      "Beyond audit, I coordinate cross-institutional initiatives — including leading Living Goods' AI pilot as AI Working Group Co-Lead, and supporting the organisation's strategic planning process during a leadership transition. That work reflects how I try to operate: as an institutional leader, not just a technical auditor.",
+      "I hold an MBA in Finance, a CIA, and a CPA(K), and I bring a track record of building audit functions that earn genuine institutional trust — not just compliance checkboxes."
+    ]
+  },
+
+  "topSkills": ["Risk Management", "Leadership Development", "Finance", "Project Management", "Compliance Management"],
+
+  "contact": {
+    "email": "TODO-add-email@example.com",
+    "linkedin": "https://www.linkedin.com/in/rotichjr",
+    "formIntro": "Open to conversations about internal audit leadership roles, board advisory, or AI-driven assurance. Get in touch."
+  },
+
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Japheth Rotich",
+    "alternateName": "J. Rotich",
+    "jobTitle": "Global Lead, Internal Audit",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Living Goods"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Kenyatta University" },
+      { "@type": "CollegeOrUniversity", "name": "University of Nairobi" },
+      { "@type": "CollegeOrUniversity", "name": "Strathmore Business School" }
+    ],
+    "knowsAbout": [
+      "Internal Audit",
+      "Enterprise Risk Management",
+      "Corporate Governance",
+      "Regulatory Compliance",
+      "Fraud Investigation",
+      "AI Governance and Assurance",
+      "ISO 9001 Quality Management"
+    ],
+    "knowsLanguage": ["English", "Swahili"],
+    "sameAs": [
+      "https://www.linkedin.com/in/rotichjr"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nairobi",
+      "addressCountry": "KE"
+    }
+  }
+}

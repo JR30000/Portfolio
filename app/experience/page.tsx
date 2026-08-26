@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Timeline, type ExperienceItem } from "@/components/Timeline";
+import { Timeline, type ExperienceRole } from "@/components/Timeline";
 import experienceData from "@/content/experience.json";
 
 export const metadata: Metadata = {
   title: "Experience",
   description:
-    "Career timeline and roles held by J. Rotich in risk, audit, and compliance leadership.",
+    "Career timeline and roles held by Japheth Rotich in risk, audit, and compliance leadership across 25+ countries.",
 };
 
-const experience = experienceData as ExperienceItem[];
+const experience = experienceData.roles as ExperienceRole[];
 
 export default function ExperiencePage() {
   return (

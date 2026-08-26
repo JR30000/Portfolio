@@ -8,10 +8,10 @@ import recommendationsData from "@/content/recommendations.json";
 export const metadata: Metadata = {
   title: "Recommendations",
   description:
-    "Testimonials and recommendations from colleagues and stakeholders who have worked with J. Rotich.",
+    "Testimonials and recommendations from colleagues and stakeholders who have worked with Japheth Rotich.",
 };
 
-const recommendations = recommendationsData as Recommendation[];
+const recommendations = recommendationsData.recommendations as Recommendation[];
 
 export default function RecommendationsPage() {
   return (
@@ -22,7 +22,7 @@ export default function RecommendationsPage() {
       <div className="mt-10 grid gap-6 md:grid-cols-2">
         {recommendations.map((recommendation) => (
           <RecommendationCard
-            key={recommendation.id}
+            key={recommendation.name}
             recommendation={recommendation}
           />
         ))}

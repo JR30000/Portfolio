@@ -1,7 +1,6 @@
-const SOCIAL_LINKS = [
-  { href: "https://www.linkedin.com/in/TODO-linkedin-handle", label: "LinkedIn" },
-  { href: "https://github.com/TODO-github-handle", label: "GitHub" },
-];
+import profile from "@/content/profile.json";
+
+const SOCIAL_LINKS = [{ href: profile.linkedinUrl, label: "LinkedIn" }];
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -9,7 +8,9 @@ export function Footer() {
   return (
     <footer className="border-t border-border/80">
       <div className="mx-auto flex max-w-container flex-col gap-4 px-6 py-8 text-sm text-muted md:flex-row md:items-center md:justify-between">
-        <p>&copy; {year} J. Rotich. All rights reserved.</p>
+        <p>
+          &copy; {year} {profile.name}. All rights reserved.
+        </p>
         <nav aria-label="Social links" className="flex gap-5">
           {SOCIAL_LINKS.map((link) => (
             <a

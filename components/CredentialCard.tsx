@@ -1,23 +1,39 @@
-export type Credential = {
-  id: string;
-  title: string;
+export type CredentialItem = {
+  name: string;
   issuer: string;
-  year: string;
-  description: string;
+  issued?: string;
 };
 
-export function CredentialCard({ credential }: { credential: Credential }) {
+export type CredentialGroup = {
+  category: string;
+  items: CredentialItem[];
+};
+
+function formatIssued(issued?: string) {
+  if (!issued) return null;
+  const [year, month] = issued.split("-");
+  if (!month) return year;
+  const date = new Date(Number(year), Number(month) - 1);
+  return date.toLocaleDateString("en-US", { year: "numeric", month: "short" });
+}
+
+export function CredentialCard({ group }: { group: CredentialGroup }) {
   return (
     <div className="rounded-xl border border-border bg-background p-6 shadow-sm">
       <h3 className="font-heading text-lg font-semibold text-foreground">
-        {credential.title}
+        {group.category}
       </h3>
-      <p className="mt-1 text-sm text-accent">
-        {credential.issuer} &middot; {credential.year}
-      </p>
-      {credential.description && (
-        <p className="mt-3 text-sm text-muted">{credential.description}</p>
-      )}
+      <ul className="mt-4 space-y-3">
+        {group.items.map((item) => (
+          <li key={item.name} className="text-sm">
+            <p className="text-foreground/90">{item.name}</p>
+            <p className="text-muted">
+              {item.issuer}
+              {item.issued && <> &middot; {formatIssued(item.issued)}</>}
+            </p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

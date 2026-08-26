@@ -1,27 +1,33 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export function Hero() {
+export function Hero({
+  name,
+  headline,
+  subheadline,
+  ctaLabel,
+}: {
+  name: string;
+  headline: string;
+  subheadline: string;
+  ctaLabel: string;
+}) {
   return (
     <section className="mx-auto flex max-w-container flex-col-reverse items-center gap-10 px-6 py-16 md:flex-row md:py-24">
       <div className="flex-1">
         <p className="mb-3 text-sm font-medium uppercase tracking-wide text-accent">
-          Risk, Audit &amp; Compliance Leadership
+          {name}
         </p>
         <h1 className="font-heading text-4xl font-semibold leading-tight text-foreground md:text-5xl">
-          J. Rotich
+          {headline}
         </h1>
-        <p className="mt-4 max-w-prose text-lg text-muted">
-          Global Internal Audit Lead with 15+ years driving risk, audit, and
-          compliance outcomes across 25+ countries — currently co-leading an
-          AI adoption pilot for internal audit at an international NGO.
-        </p>
+        <p className="mt-4 max-w-prose text-lg text-muted">{subheadline}</p>
         <div className="mt-8 flex flex-wrap gap-4">
           <Link
             href="/experience"
             className="rounded-md bg-accent px-5 py-3 text-sm font-medium text-cream transition-opacity hover:opacity-90"
           >
-            View Experience
+            {ctaLabel}
           </Link>
           <Link
             href="/contact"
@@ -34,7 +40,7 @@ export function Hero() {
       <div className="flex-1">
         <Image
           src="/images/placeholder-avatar.svg"
-          alt="Portrait of J. Rotich"
+          alt={`Portrait of ${name}`}
           width={480}
           height={480}
           priority

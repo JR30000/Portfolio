@@ -1,26 +1,98 @@
-[
-  {
-    "id": "current-role",
-    "role": "TODO: Global Internal Audit Lead",
-    "organization": "TODO: INGO name (or 'International NGO' if kept confidential)",
-    "location": "TODO",
-    "startDate": "TODO-YYYY-MM",
-    "endDate": null,
-    "summary": "TODO: 1-2 sentence summary of scope (e.g. countries covered, team size, reporting line).",
-    "highlights": [
-      "TODO: Co-leading organization-wide AI adoption pilot for audit/compliance functions.",
-      "TODO: Key achievement or metric.",
-      "TODO: Key achievement or metric."
-    ]
-  },
-  {
-    "id": "placeholder-role-2",
-    "role": "TODO: Prior role title",
-    "organization": "TODO: Prior organization",
-    "location": "TODO",
-    "startDate": "TODO-YYYY-MM",
-    "endDate": "TODO-YYYY-MM",
-    "summary": "TODO",
-    "highlights": ["TODO"]
-  }
-]
+{
+  "roles": [
+    {
+      "company": "Living Goods",
+      "title": "Global Lead, Internal Audit",
+      "location": "Kenya, Uganda, Burkina Faso, United States",
+      "startDate": "2023-11",
+      "endDate": null,
+      "summary": "Leading the Internal Audit function at Living Goods International, an INGO operating across four countries, reporting directly to the Board Finance & Audit Committee and administratively to the Global CFO.",
+      "highlights": [
+        "Designed and executed risk-based annual internal audit plans covering 4 countries, securing Board Finance & Audit Committee approval and achieving 100% plan completion on schedule.",
+        "Revised the Internal Audit Charter to full IIA standards alignment, strengthening the function's independence, mandate, and scope.",
+        "Introduced structured quarterly governance, risk, and control reporting to the Global Executive Team and Board Finance & Audit Committee, raising audit's visibility at the highest institutional levels.",
+        "Coordinated across Grants & Compliance teams, co-sourced audit partners, and external auditors to deliver a coherent combined assurance model across all operations.",
+        "Directed special audit assessments and fraud investigations, identifying root causes and implementing targeted mitigation strategies with senior stakeholders.",
+        "Repositioned Internal Audit from a compliance function into a strategic institutional partner through proactive C-suite engagement.",
+        "Applies Claude and Microsoft Copilot to strengthen audit analytics, accelerate report drafting, and enhance risk intelligence across the audit function."
+      ],
+      "concurrentInitiatives": [
+        {
+          "title": "AI Working Group Co-Lead",
+          "period": "Jun 2025 – Present",
+          "description": "Leading the organisation's AI pilot, mobilising cross-functional teams to identify and develop institutional AI use cases, with full implementation oversight targeted for December 2026."
+        },
+        {
+          "title": "Budget & Strategic Planning Coordination",
+          "period": "Jul 2025 – Oct 2025",
+          "description": "Coordinated the organisation's 2026 budget and strategic planning process across senior managers and C-suite leaders during the absence of a substantive Chief of Staff, ensuring structured alignment and on-schedule delivery."
+        }
+      ]
+    },
+    {
+      "company": "SGS",
+      "title": "Regional Senior Auditor — Africa, Indian Subcontinent & the Arabian Peninsula",
+      "location": "Africa, Middle East, Asia, Europe, Americas",
+      "startDate": "2018-03",
+      "endDate": "2023-10",
+      "summary": "Reporting to the Global VP of Internal Audit in Geneva, delivered risk-based audit and assurance services across 25+ countries as part of SGS's global internal audit team — the world's leading inspection, verification, testing, and certification company, operating in 140+ countries.",
+      "highlights": [
+        "Completed approximately 60 audit engagements over 6 years (~11/year) across Oil & Gas, Mining, Life Sciences, Logistics, Energy, Consumer Goods, Construction, and Public Sector, with 70%+ international travel across 5 continents.",
+        "Executed risk-based audits aligned with global IIA standards across multicultural, multilingual environments, on-site and remote.",
+        "Participated in the global Internal Controls Over Financial Reporting (ICOFR) review, identifying control design and implementation gaps that strengthened SGS's global financial governance framework.",
+        "Led and supported targeted fraud investigations, producing fact-based audit evidence that enabled management action and reinforced internal control culture.",
+        "Documented all audit working papers in Pentana audit management software, ensuring full quality and traceability for global audit leadership review.",
+        "Conducted post-acquisition and new-venture audits, assessing integration levels and identifying governance and value-creation opportunities across newly acquired entities."
+      ]
+    },
+    {
+      "company": "Longhorn Publishers Plc",
+      "title": "Chief Audit & Risk Officer",
+      "location": "Kenya, Uganda, Tanzania, Rwanda",
+      "startDate": "2014-04",
+      "endDate": "2018-03",
+      "summary": "Reporting to the Chairman of the Board Audit & Risk Committee and the Group Managing Director, led the Internal Audit and Risk Management function across four East African markets, providing independent assurance and advisory services to multiple Board Audit & Risk Committees across the Longhorn Group.",
+      "highlights": [
+        "Delivered a cost strategies audit identifying printing inefficiencies that generated significant savings (17% key cost reduction) through strategic sourcing from offshore printers, directly improving group profitability.",
+        "Cascaded the Enterprise Risk Management (ERM) framework across all functional units and affiliates, embedding institutional risk awareness at every level of the group.",
+        "Formulated and implemented the Group Whistleblowing Policy in compliance with the Capital Markets Authority's Code of Corporate Governance Practices for Issuers of Securities, 2015.",
+        "Coordinated with the Centum Group Risk Management team and external auditors under a combined assurance model, ensuring full alignment across all three lines of assurance.",
+        "Designed and delivered risk awareness training programmes group-wide, strengthening staff understanding of internal controls and compliance obligations."
+      ],
+      "concurrentInitiatives": [
+        {
+          "title": "Quality Management Representative (ISO 9001)",
+          "period": "Apr 2014 – Mar 2018",
+          "description": "Led a 16-member cross-business-unit team to establish, implement, and maintain the organisation's ISO 9001 QMS, successfully transitioning from ISO 9001:2008 to ISO 9001:2015 and achieving recertification on schedule."
+        }
+      ]
+    },
+    {
+      "company": "Kenya Tea Development Agency (KTDA)",
+      "title": "Regional Internal Auditor",
+      "location": "South Rift Region, Kenya",
+      "startDate": "2011-11",
+      "endDate": "2014-04",
+      "summary": "Reporting to the General Manager – Audit & Risk Assurance, provided audit and risk assurance across 13 factory companies in the South Rift Region with a combined annual turnover exceeding KES 10 billion (USD 100M), reporting findings to factory board committees.",
+      "highlights": [
+        "Identified CAPEX cost overruns on projects valued in excess of KES 2 billion (USD 20M) through detailed benchmarking and Bill of Quantities reviews; findings escalated to Board level.",
+        "Conducted fraud and corruption investigations within the first 6 months of appointment, identifying long-running non-compliant activities that led to fund recovery and prosecution of perpetrators.",
+        "Applied data analytics using IDEA to support risk identification, sample selection, and audit evidence generation, delivering more targeted, evidence-based audit outcomes.",
+        "Presented finalised audit reports on behalf of the KTDA Group Audit department to factory company boards and engaged with external stakeholder delegations during field assignments."
+      ]
+    },
+    {
+      "company": "Stanbic Bank Kenya",
+      "title": "Risk Assurance Officer",
+      "location": "Nairobi County, Kenya",
+      "startDate": "2009-01",
+      "endDate": "2011-10",
+      "summary": "Reporting to the Head of Risk and Head of Internal Audit, planned and executed risk and control assessments across Corporate & Investment Banking (CIB) and Personal & Business Banking (PBB) portfolios in line with approved risk methodology.",
+      "highlights": [
+        "Led fraud and Anti-Money Laundering (AML) awareness training for 398 staff across all country operations, measurably strengthening compliance culture institution-wide.",
+        "Participated in pre- and post-implementation reviews of the core banking system migration from Bank Master to Temenos T24, assessing control design and implementation effectiveness.",
+        "Monitored AML, Combating Terrorism Financing (CTF), and Know-Your-Customer (KYC) compliance across the branch network, escalating control gaps to senior management."
+      ]
+    }
+  ]
+}

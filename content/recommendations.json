@@ -1,18 +1,34 @@
-[
-  {
-    "id": "placeholder-1",
-    "author": "TODO: Full name",
-    "role": "TODO: Title, Organization",
-    "relationship": "TODO: e.g. 'Managed J. Rotich directly'",
-    "quote": "TODO: Paste recommendation text here.",
-    "avatarUrl": null
-  },
-  {
-    "id": "placeholder-2",
-    "author": "TODO: Full name",
-    "role": "TODO: Title, Organization",
-    "relationship": "TODO",
-    "quote": "TODO",
-    "avatarUrl": null
-  }
-]
+{
+  "recommendations": [
+    {
+      "name": "Marissa H., FCCA",
+      "title": "Finance Controller | Senior Finance Manager | Ex-Big 4 | Process Excellence",
+      "relationship": "Worked with J on different teams",
+      "quote": "I highly recommend Rotich for any position related to internal auditing. Having had the privilege of working closely with him over the past two years, I can confidently attest to his exceptional skills, unwavering dedication, and invaluable contributions as an internal auditor. He has consistently demonstrated an exemplary level of efficiency in all aspects of his role, and his thorough understanding of internal controls and audit procedures allows him to execute with precision and effectiveness."
+    },
+    {
+      "name": "Grzegorz \"Greg\" Fert",
+      "title": "Global Finance GBS Executive | Finance Transformation Leader, SGS",
+      "relationship": "Worked with J on different teams",
+      "quote": "As leader of the Finance Shared Service Organization at SGS Group, I had the pleasure of being served by Japheth in his role as Regional Senior Auditor. His broad expertise and business acumen have been invaluable in advancing our control activities and promoting internal control maturity within our organization. His in-depth knowledge of auditing principles, regulations, and best practices has consistently delivered outstanding results."
+    },
+    {
+      "name": "Huguette Nadine Annimbom",
+      "title": "CFO, Central Africa, SGS",
+      "relationship": "Worked with J on different teams",
+      "quote": "As Finance Manager of SGS Cameroun entities, I had the opportunity to closely collaborate with Rotich and observe his expertise and professionalism throughout the audit process. He demonstrated exceptional competence in conducting a comprehensive examination of our financial records, systems, and internal controls. His attention to detail, analytical skills, and understanding of financial regulations were evident in the thoroughness and accuracy of the audit."
+    },
+    {
+      "name": "Kevin Ogeto",
+      "title": "Senior Grants Associate | Donor Compliance | International Development",
+      "relationship": "J was senior to Kevin",
+      "quote": "I highly recommend Japheth for his exceptional work as an Internal Audit Lead. As a former colleague, I witnessed firsthand his deep expertise in auditing, strategic approach to risk management, and effective leadership. His ability to analyze complex financial data and provide insightful recommendations made a significant impact on our internal audit function. His clear communication and problem-solving skills make him a valuable asset to any organization."
+    },
+    {
+      "name": "Faith Mulwa, ACCA",
+      "title": "Group CFO, Finance Shared Services | Development Organizations | Fintech",
+      "relationship": "Worked with J on the same team",
+      "quote": "J Rotich is an excellent resource with great inter-departmental collaboration. Having worked with him as he audited affiliates that are part of FSSC AFR, we were able to draw on his years of experience and value addition to ensure adherence to Group policies and procedures."
+    }
+  ]
+}

@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { JsonLd, personSchema } from "@/components/seo/JsonLd";
+import { JsonLd } from "@/components/seo/JsonLd";
+import profile from "@/content/profile.json";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -20,35 +21,34 @@ const inter = Inter({
 // TODO: replace with the real production domain once known.
 const siteUrl = "https://TODO-your-domain.example";
 
+const title = `${profile.name} — ${profile.hero.headline}`;
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "J. Rotich — Risk, Audit & Compliance Leader",
-    template: "%s | J. Rotich",
+    default: title,
+    template: `%s | ${profile.name}`,
   },
-  description:
-    "J. Rotich is a Risk, Audit & Compliance leader with 15+ years of experience across 25+ countries, currently Global Internal Audit Lead at an international NGO.",
+  description: profile.about.short,
   openGraph: {
     type: "website",
     url: siteUrl,
-    siteName: "J. Rotich",
-    title: "J. Rotich — Risk, Audit & Compliance Leader",
-    description:
-      "Risk, Audit & Compliance leader with 15+ years of experience across 25+ countries.",
+    siteName: profile.name,
+    title,
+    description: profile.about.short,
     images: [
       {
         url: "/images/placeholder-avatar.svg",
         width: 480,
         height: 480,
-        alt: "J. Rotich",
+        alt: profile.name,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "J. Rotich — Risk, Audit & Compliance Leader",
-    description:
-      "Risk, Audit & Compliance leader with 15+ years of experience across 25+ countries.",
+    title,
+    description: profile.about.short,
     images: ["/images/placeholder-avatar.svg"],
   },
 };
@@ -61,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="font-sans antialiased">
-        <JsonLd data={personSchema} />
+        <JsonLd data={profile.jsonLd} />
         <div className="flex min-h-screen flex-col">
           <Header />
           <main className="flex-1">{children}</main>

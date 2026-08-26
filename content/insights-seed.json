@@ -1,0 +1,40 @@
+{
+  "note": "These are seeded from LinkedIn post titles found in the profile export. Excerpts are placeholders — the full body text was not present in the source PDFs, so these need real content before publishing. This is intentional: writing full posts on your behalf from a title alone would misrepresent your views.",
+  "drafts": [
+    {
+      "slug": "enterprise-cortex-ai-strategy-risk",
+      "title": "Do You Own Your Enterprise Cortex? The AI Strategy Risk CEOs May Not See Coming",
+      "status": "draft",
+      "excerpt": "TODO — expand from your original LinkedIn post.",
+      "topic": "AI governance and enterprise risk"
+    },
+    {
+      "slug": "board-wrong-numbers",
+      "title": "Your Board Is Looking at the Wrong Numbers",
+      "status": "draft",
+      "excerpt": "TODO — expand from your original LinkedIn post.",
+      "topic": "Board reporting and KPIs for nonprofits"
+    },
+    {
+      "slug": "leading-with-empathy-work-environment-mental-wellness",
+      "title": "Leading With Empathy: The Work Environment as a Contributor to Mental Wellness",
+      "status": "draft",
+      "excerpt": "TODO — expand from your original LinkedIn post.",
+      "topic": "Leadership and workplace culture"
+    },
+    {
+      "slug": "caring-culture-at-the-workplace",
+      "title": "Some Thoughts on Fostering a Caring Culture at the Workplace",
+      "status": "draft",
+      "excerpt": "TODO — expand from your original LinkedIn post.",
+      "topic": "Leadership and workplace culture"
+    },
+    {
+      "slug": "five-most-severe-ai-risks",
+      "title": "Five Most Severe AI Risks: What 272 AI Experts Ranked",
+      "status": "draft",
+      "excerpt": "TODO — expand with your own commentary on the ranking.",
+      "topic": "AI risk"
+    }
+  ]
+}
