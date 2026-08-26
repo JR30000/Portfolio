@@ -18,8 +18,7 @@ const inter = Inter({
   display: "swap",
 });
 
-// TODO: replace with the real production domain once known.
-const siteUrl = "https://TODO-your-domain.example";
+const siteUrl = "https://jrotich-portfolio.onrender.com";
 
 const title = `${profile.name} — ${profile.hero.headline}`;
 

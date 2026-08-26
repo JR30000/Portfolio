@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
 
-// TODO: replace with the real production domain once known.
-const siteUrl = "https://TODO-your-domain.example";
+const siteUrl = "https://jrotich-portfolio.onrender.com";
 
 const STATIC_ROUTES = [
   "",
