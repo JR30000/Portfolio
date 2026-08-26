@@ -6,11 +6,13 @@ export function Hero({
   headline,
   subheadline,
   ctaLabel,
+  photoAlt,
 }: {
   name: string;
   headline: string;
   subheadline: string;
   ctaLabel: string;
+  photoAlt: string;
 }) {
   return (
     <section className="mx-auto flex max-w-container flex-col-reverse items-center gap-10 px-6 py-16 md:flex-row md:py-24">
@@ -39,8 +41,8 @@ export function Hero({
       </div>
       <div className="flex-1">
         <Image
-          src="/images/placeholder-avatar.svg"
-          alt={`Portrait of ${name}`}
+          src="/images/headshot.jpg"
+          alt={photoAlt}
           width={480}
           height={480}
           priority

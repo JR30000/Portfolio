@@ -21,6 +21,7 @@ const inter = Inter({
 const siteUrl = "https://jrotich-portfolio.onrender.com";
 
 const title = `${profile.name} — ${profile.hero.headline}`;
+const photoAlt = `Photo of ${profile.fullName}, ${profile.jobTitle} at ${profile.currentEmployer}`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -37,10 +38,10 @@ export const metadata: Metadata = {
     description: profile.about.short,
     images: [
       {
-        url: "/images/placeholder-avatar.svg",
+        url: "/images/headshot.jpg",
         width: 480,
         height: 480,
-        alt: profile.name,
+        alt: photoAlt,
       },
     ],
   },
@@ -48,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title,
     description: profile.about.short,
-    images: ["/images/placeholder-avatar.svg"],
+    images: ["/images/headshot.jpg"],
   },
 };
 
