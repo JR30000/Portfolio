@@ -2,6 +2,7 @@ export type Recommendation = {
   name: string;
   title: string;
   relationship: string;
+  date?: string;
   quote: string;
 };
 
@@ -11,8 +12,8 @@ export function RecommendationCard({
   recommendation: Recommendation;
 }) {
   return (
-    <figure className="rounded-xl border border-border bg-background p-6 shadow-sm">
-      <blockquote className="text-foreground/90">
+    <figure className="h-fit rounded-xl border border-border bg-background p-6 shadow-sm">
+      <blockquote className="text-sm text-foreground/90">
         <p>&ldquo;{recommendation.quote}&rdquo;</p>
       </blockquote>
       <figcaption className="mt-4">
