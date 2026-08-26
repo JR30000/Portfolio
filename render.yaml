@@ -1,0 +1,24 @@
+# Render Blueprint for deploying this Next.js (App Router) site as a web service.
+# See: https://render.com/docs/blueprint-spec
+#
+# Real secret values are NOT stored here. Variables marked `sync: false`
+# must be set manually in the Render dashboard (Service -> Environment).
+services:
+  - type: web
+    name: jrotich-portfolio
+    runtime: node
+    plan: starter
+    region: oregon
+    branch: main
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.1
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        sync: false
+      - key: CONTACT_FORM_SECRET
+        sync: false

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light theme (default): navy text on cream background. */
+  --color-bg: #f7f3ec;
+  --color-fg: #0b1f3a;
+  --color-muted: #4b5768;
+  --color-border: #ddd4c4;
+
+  /* Accent: defaults to teal. Swap to #d9a441 (amber) here once confirmed —
+     this is the single place that decision needs to change. */
+  --color-accent: #1e7a6f;
+}
+
+.dark {
+  /* Dark theme (opt-in via `dark` class on <html>): cream text on navy. */
+  --color-bg: #0b1f3a;
+  --color-fg: #f7f3ec;
+  --color-muted: #b7c0d1;
+  --color-border: #1f3357;
+  --color-accent: #1e7a6f;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}

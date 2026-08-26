@@ -1,0 +1,26 @@
+[
+  {
+    "id": "current-role",
+    "role": "TODO: Global Internal Audit Lead",
+    "organization": "TODO: INGO name (or 'International NGO' if kept confidential)",
+    "location": "TODO",
+    "startDate": "TODO-YYYY-MM",
+    "endDate": null,
+    "summary": "TODO: 1-2 sentence summary of scope (e.g. countries covered, team size, reporting line).",
+    "highlights": [
+      "TODO: Co-leading organization-wide AI adoption pilot for audit/compliance functions.",
+      "TODO: Key achievement or metric.",
+      "TODO: Key achievement or metric."
+    ]
+  },
+  {
+    "id": "placeholder-role-2",
+    "role": "TODO: Prior role title",
+    "organization": "TODO: Prior organization",
+    "location": "TODO",
+    "startDate": "TODO-YYYY-MM",
+    "endDate": "TODO-YYYY-MM",
+    "summary": "TODO",
+    "highlights": ["TODO"]
+  }
+]

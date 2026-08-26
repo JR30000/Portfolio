@@ -1,0 +1,18 @@
+[
+  {
+    "id": "placeholder-1",
+    "author": "TODO: Full name",
+    "role": "TODO: Title, Organization",
+    "relationship": "TODO: e.g. 'Managed J. Rotich directly'",
+    "quote": "TODO: Paste recommendation text here.",
+    "avatarUrl": null
+  },
+  {
+    "id": "placeholder-2",
+    "author": "TODO: Full name",
+    "role": "TODO: Title, Organization",
+    "relationship": "TODO",
+    "quote": "TODO",
+    "avatarUrl": null
+  }
+]

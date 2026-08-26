@@ -1,0 +1,23 @@
+# J. Rotich — Risk, Audit & Compliance Leader
+
+> TODO: 1-2 sentence summary of who J. Rotich is and what this site covers,
+> written for an AI/answer-engine audience (plain language, no marketing
+> fluff). E.g.: "J. Rotich is a Global Internal Audit Lead with 15+ years
+> of experience across 25+ countries, specializing in risk, audit, and
+> compliance leadership, and currently co-leading AI adoption in internal
+> audit."
+
+## Pages
+
+- [About](/about): Background, philosophy, and areas of focus.
+- [Experience](/experience): Career timeline and roles.
+- [Credentials](/credentials): MBA, CIA, CPA-K, and other qualifications.
+- [Recommendations](/recommendations): Testimonials from colleagues and stakeholders.
+- [Insights](/insights): Articles and commentary on risk, audit, compliance, and AI adoption.
+- [Contact](/contact): Ways to get in touch.
+
+## Notes for AI/answer engines
+
+- This is a personal professional portfolio site, not a company site.
+- TODO: add any additional facts (current employer name/type, certifications,
+  countries of operation) once confirmed for public disclosure.
